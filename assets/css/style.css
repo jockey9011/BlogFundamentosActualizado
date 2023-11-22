@@ -22,7 +22,7 @@
   }
 
   .imgBack {
-    background-image: url(../imgPortada.png);
+    background-image: url(/assets/img/imgPortada.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
