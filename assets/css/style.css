@@ -42,6 +42,17 @@
     box-sizing: border-box;
 }
 
+iframe {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 5%;
+  }
+
+article img {
+  max-width: 100%;
+  height: auto;
+  }
+
 .content {
     flex: 1;
     padding: 20px;
