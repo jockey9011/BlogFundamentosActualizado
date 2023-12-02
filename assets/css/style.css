@@ -66,10 +66,26 @@ article img {
   text-align: center;
 }
 
+summary:hover {
+  cursor: pointer;
+  background-color: rgb(209, 187, 112);
+  transition: 1.5s;
+}
 
-   
-   
-   
+.h2SideBar {
+  color: rgb(209, 187, 112); /* Cambia el color del texto a azul */
+  text-decoration: none; /* Elimina el subrayado del texto */
+}
+
+.h2SideBar {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.sidebar h3  {
+  text-align: center;
+}
+
    
    
    
