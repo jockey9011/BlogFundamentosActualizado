@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #ffffff;
+  opacity: 0.9;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+iframe {
+max-width: 100%;
+height: auto;
+padding-bottom: 5%;
+}
+
+article img {
+max-width: 100%;
+height: auto;
+cursor: pointer;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.boxWhite{
+background-color: white;
+height: 300px;
+margin: 120px 20%;
+text-align: center;
+}
+
+summary:hover {
+cursor: pointer;
+background-color: rgb(209, 187, 112);
+transition: 1.5s;
+}
+
+.h2SideBar {
+color: rgb(209, 187, 112); /* Cambia el color del texto a azul */
+text-decoration: none; /* Elimina el subrayado del texto */
+}
+
+.h2SideBar {
+text-transform: uppercase;
+text-align: center;
+}
+
+.sidebar h3  {
+text-align: center;
+}
+
