@@ -19,6 +19,7 @@ padding-bottom: 5%;
 article img {
 max-width: 100%;
 height: auto;
+width: auto;
 cursor: pointer;
 }
 
@@ -55,3 +56,25 @@ text-align: center;
 text-align: center;
 }
 
+#imagenAmpliada {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: rgba(228, 220, 220, 0.8);
+  z-index: 2;
+}
+
+#imagenAmpliada img {
+  
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 20px 0;
+  cursor: pointer;
+  height: 100%;
+  object-fit: cover;  
+  
+}

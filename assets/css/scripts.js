@@ -1,5 +1,11 @@
-function abrirImagen(imagen) {
-  var ventanaNueva = window.open("", "", "width=" + imagen.naturalWidth + ", height=" + imagen.naturalHeight);
-  ventanaNueva.document.write("<img src='" + imagen.src + "'>");
-  ventanaNueva.document.close();
+function abrirImagen(rutaImagen) {
+  var imagenAmpliada = document.getElementById("imagenAmpliada");
+  imagenAmpliada.innerHTML = "<img src='" + rutaImagen + "'>";
+  imagenAmpliada.style.display = "block";
+}
+
+function cerrarImagen() {
+  var imagenAmpliada = document.getElementById("imagenAmpliada");
+  imagenAmpliada.style.display = "none";
+  imagenAmpliada.innerHTML = "";
 }
